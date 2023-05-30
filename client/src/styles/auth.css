@@ -1,0 +1,38 @@
+.auth_page{
+    width: 100%;
+    min-height: 100vh;
+    background: #fdfdfd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('https://media.pelican.com/img/blog/pelican-blog-155-hiking-people.jpg');
+    /* background: url('../images/login_back.png'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.auth_page form{
+    background: #fff;
+    max-width: 400px;
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 50px 25px;
+}
+
+.auth_page form .pass{
+    position: relative;
+}
+
+.auth_page form .pass small{
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#my_logo {
+    width : 100px;
+    margin-left: 120px
+}
